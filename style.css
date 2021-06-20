@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    background-color: mediumturquoise;
+    color: rgba(245, 245, 245, 0.972);
+    padding: 10rem;
+}
+section {
+    border-bottom: 7px solid rgb(30, 48, 58);;
+}
+
+footer {
+    background-color: rgb(30, 48, 58);
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 11ch;
+    margin-bottom: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(30, 48, 58);
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 4ch;
+    padding-top: 2rem;
+}
+
+.center {
+    margin-left: 18rem;
+    max-width: 40rem;
+    margin-bottom: 1rem;
+}
+
+.center-with-space {
+    margin-left: 18rem;
+    max-width: 40rem;
+    margin-bottom: 3rem;
+}
+
+.portfolio {
+    background-color: rgb(255, 235, 237);
+}
+
+.box {
+    border: 5px solid rgb(181, 69, 116);
+    border-radius: 3px;
+    width: 15rem;
+    height: 25rem;
+    padding: 2rem;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin-left: 10%;
+    margin-bottom: 3rem;
+    font-size: 2ch;
+}
+
+.black-text {
+    color: black;
+}
+
+.underline {
+    text-decoration: underline black;
+}
+
+.center-grid {
+    max-width: 150ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.not-as-center {
+      margin-left: 10rem;
+      max-width: 30rem;
+}
+
+.title {
+      font-size: 3ch;
+}
+
+.read-more {
+      border-radius: 5px;
+      background-color: rgb(181, 69, 116);
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      color: whitesmoke;
+      padding-bottom: 5px;
+      padding-top: 5px;
+}
+
+.github-repo {
+      color: rgb(181, 69, 116);
+      text-align: center;
+      text-decoration: underline;
+}
+
+.name {
+    display: inline-block;
+}
+
+.copyright {
+    margin-left: 2rem;
+    display: inline-block
+}
+
+.center-br {
+    display: inline-block;
+}
+
+.space {
+    margin-left: 8rem;
+    margin-bottom: 3rem;
+}
